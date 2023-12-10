@@ -20,7 +20,7 @@ namespace Library.Shared.Services.LibraryService
 
         private readonly HttpClient _httpClient;
         private readonly AppSettings _appSettings;
-        private readonly string Path = "http://localhost:7285/"; 
+        private readonly string Path = "https://libraryapiapi20231208205902.azurewebsites.net/"; 
 
         public LibraryService(HttpClient httpClient, IOptions<AppSettings> appSettings) {
             _httpClient = httpClient;
